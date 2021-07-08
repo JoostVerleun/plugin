@@ -1,0 +1,12 @@
+name: Chaos
+version: ${project.version}
+main: com.netlify.hparcells.chaos.Chaos
+api-version: 1.16
+description: Random dingen
+author: JoostVerleun
+commands:
+  chaos:
+    description: Standaard command.
+permissions:
+  chaos.use:
+    description: Je mag de plugin gebruiken
